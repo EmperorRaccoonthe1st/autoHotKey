@@ -2,7 +2,7 @@
 
 
 ; alt + z => open cli 
-!z:: Run '"C:\Users\owenm\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk" "C:\Users\owenm\OneDrive\Desktop"'
+!z:: Run '"c:\Windows\system32\cmd.exe."'
 
 
 ; direct encoding of emojis => ":" + name of emoji
