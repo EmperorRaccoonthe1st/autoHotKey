@@ -2,7 +2,7 @@
 
 
 ; alt + z => open cli 
-!z:: Run '"c:\Windows\system32\cmd.exe."'
+!z:: Run '"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.21.3231.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"'
 
 
 ; direct encoding of emojis => ":" + name of emoji
@@ -25,6 +25,8 @@
 :::sad::😢
 :::scared::😨
 :::celebrate::🥳
+:::devil::😈
+:::aww::😔
 
 
 emojiTermArray := [
@@ -46,7 +48,9 @@ emojiTermArray := [
     "smile",
     "sad",
     "scared",
-    "celebrate"
+    "celebrate",
+    "devil",
+    "aww"
 ]
 
 :::
@@ -93,6 +97,8 @@ emojiTermArray := [
                     case "sad": emoji := "😢"
                     case "scared": emoji := "😨"
                     case "celebrate:": emoji := "🥳"
+                    case "devil": emoji := "😈"
+                    case "aww": emoji := "😔"
                 }
 
 
